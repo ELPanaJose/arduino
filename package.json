@@ -1,14 +1,16 @@
 {
-  "name": "hi-jhohny-five",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "firmata-party": "^2.0.1",
+    "johnny-five": "^2.0.0"
   },
+  "name": "mondongo",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "reset": "firmata-party uno --debug"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "johnny-five": "^2.0.0"
-  }
+  "description": ""
 }
